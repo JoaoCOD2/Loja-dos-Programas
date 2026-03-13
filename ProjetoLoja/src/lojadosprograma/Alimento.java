@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication343;
+package lojadosprograma;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Produto {
+public class Alimento {
     
 }
