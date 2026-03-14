@@ -7,23 +7,23 @@ package lojadosprograma;
 
     public class Roupa extends Produto {
 
-        private int tamanho;
+        private String tamanho;
         private String modelagem;
         private String marca;
 
-        public Roupa(String nome, double preco, String categoria, int tamanho, String modelagem, String marca) {
-            super(nome, preco, categoria);
+        public Roupa(String nome, double preco, String categoria, String tamanho, String modelagem, String marca) {
+            super(nome, categoria, preco);
 
             this.tamanho = tamanho;
             this.modelagem = modelagem;
             this.marca = marca;
         }
 
-        public int getTamanho() {
+        public String getTamanho() {
             return tamanho;
         }
 
-        public void setTamanho(int tamanho) {
+        public void setTamanho(String tamanho) {
             this.tamanho = tamanho;
         }
 
