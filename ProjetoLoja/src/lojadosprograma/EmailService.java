@@ -1,4 +1,4 @@
-//API que usa Jakartaa Mail que se conecta com o servidor de email do Google atraves do SMTP (Simple Mail Transfer Protocol) que é um protocolo padrao da internet para enviar emails
+//API que usa Jakarta Mail que se conecta com o servidor de email do Google atraves do SMTP (Simple Mail Transfer Protocol) que é um protocolo padrao da internet para enviar emails
 //Passo a passo para instalar a API: 1= abrir o site https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail/2.0.1 , clicar no jar, baixar o arquivo jakarta.mail-2.0.1.jar
 //2- Jakarta Activation: Abrir https://mvnrepository.com/artifact/com.sun.activation/jakarta.activation/2.0.1 , clicar no jar, baixar  https://mvnrepository.com/artifact/com.sun.activation/jakarta.activation/2.0.1
 //3-Clicar no botao direito no projeto, propiedades, biblioteca, clicar em adicionarJarPasta, seliconar os arquivlos .jar
@@ -51,7 +51,7 @@ public class EmailService {
             //Conteudo da mensagem do email
             message.setText(
                     "Olá " + nome + ",\n\n"
-                    + "Você foi cadastrado na Loja dos Programas.\n"
+                    + "você foi cadastrado na Loja dos Programas.\n"
                     + "Obrigado por utilizar o sistema!"
             );
               
