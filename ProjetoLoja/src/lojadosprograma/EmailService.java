@@ -50,9 +50,7 @@ public class EmailService {
             
             //Conteudo da mensagem do email
             message.setText(
-                    "Olá " + nome + ",\n\n"
-                    + "você foi cadastrado na Loja dos Programas.\n"
-                    + "Obrigado por utilizar o sistema!"
+                    "Betinha mogada"
             );
               
             

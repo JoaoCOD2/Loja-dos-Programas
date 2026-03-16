@@ -145,7 +145,7 @@ public class ProjetoLoja {
 
                     System.out.println("Seu e-mail está sendo cadastrado!");
                     Thread.sleep(1000);
-                    System.out.println("Um e-mail confirmando seu cadastro chegará na sua saixa de entrada.");
+                    System.out.println("Um e-mail confirmando seu cadastro chegará na sua caixa de entrada.");
 
                     EmailService.enviarEmail(email, nomeC);
 
