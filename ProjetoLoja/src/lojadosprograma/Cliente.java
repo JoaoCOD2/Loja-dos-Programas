@@ -10,46 +10,39 @@ package lojadosprograma;
  * @author aluno.saolucas
  */
 public class Cliente {
-     private String nome;
+
+    private String nome;
     private String email;
-    private int cpf;
-   
-   
-public Cliente(String nome, String email, int cpf) {
- this.nome = nome;
- this.email = email;
- this.cpf = cpf;
-}
+    private String cpf;
 
+    public Cliente(String nome, String email, String cpf) {
+        this.nome = nome;
+        this.email = email;
+        this.cpf = cpf;
+    }
 
-public String getNome() {
- return nome;
-}
+    public String getNome() {
+        return nome;
+    }
 
+    public String getEmail() {
+        return email;
+    }
 
-public String getEmail() {
- return email;
-}
+    public String getCPF() {
+        return cpf;
+    }
+    
+    public void setCPF(String cpf) {
+        this.cpf = cpf;
+    }
 
-public int getCPF() {
- return cpf;
-}
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-public void setNome(String nome) {
- this.nome = nome;
-}
-
-
-public void setEmail(String email) {
- this.email = email;
-}
-
-
-
-public void setCPF(int cpf) {
-this.cpf = cpf;
-}
-
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
 }
-
